@@ -1,0 +1,64 @@
+
+ Nearest_NeighborsMelhores parâmetros: {'model__metric': 'minkowski', 'model__n_neighbors': np.int64(3), 'model__p': 3, 'model__weights': 'uniform'}
+Acurácia no teste: 0.9572
+Recall médio: 0.9457
+F1-score médio: 0.9518
+
+Relatório completo por classe:              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.97       169
+           1       0.96      0.91      0.94        88
+
+    accuracy                           0.96       257
+   macro avg       0.96      0.95      0.95       257
+weighted avg       0.96      0.96      0.96       257
+
+
+
+ Decision_TreeMelhores parâmetros: {'model__criterion': 'gini', 'model__max_depth': None, 'model__min_samples_leaf': 2, 'model__min_samples_split': 2}
+Acurácia no teste: 0.9027
+Recall médio: 0.8825
+F1-score médio: 0.8898
+
+Relatório completo por classe:              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93       169
+           1       0.89      0.82      0.85        88
+
+    accuracy                           0.90       257
+   macro avg       0.90      0.88      0.89       257
+weighted avg       0.90      0.90      0.90       257
+
+
+
+ Naive_BayesMelhores parâmetros: {'model__var_smoothing': 1e-09}
+Acurácia no teste: 0.9222
+Recall médio: 0.9081
+F1-score médio: 0.9126
+
+Relatório completo por classe:              precision    recall  f1-score   support
+
+           0       0.93      0.95      0.94       169
+           1       0.90      0.86      0.88        88
+
+    accuracy                           0.92       257
+   macro avg       0.92      0.91      0.91       257
+weighted avg       0.92      0.92      0.92       257
+
+
+
+ Logistic_RegressionMelhores parâmetros: {'model__C': 0.01, 'model__max_iter': 2000, 'model__penalty': 'l2', 'model__solver': 'saga'}
+Acurácia no teste: 0.9377
+Recall médio: 0.9091
+F1-score médio: 0.9274
+
+Relatório completo por classe:              precision    recall  f1-score   support
+
+           0       0.91      1.00      0.95       169
+           1       1.00      0.82      0.90        88
+
+    accuracy                           0.94       257
+   macro avg       0.96      0.91      0.93       257
+weighted avg       0.94      0.94      0.94       257
+
+

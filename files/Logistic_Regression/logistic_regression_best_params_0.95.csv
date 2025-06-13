@@ -1,0 +1,2 @@
+model__C,model__max_iter,model__penalty,model__solver
+0.0001,2000,l2,liblinear

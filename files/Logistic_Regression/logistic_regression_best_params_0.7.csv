@@ -1,2 +1,0 @@
-model__C,model__max_iter,model__penalty,model__solver
-0.01,2000,l2,saga
